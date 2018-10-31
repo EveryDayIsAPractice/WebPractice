@@ -17,7 +17,9 @@
         <h1 align="center">by Generative Adversarial Network and its Application to Data Augmentation</h1>
 
 
+<!--
         <h2>SEAME Examples</h2>
+-->
         <table class="table table-striped">
             <thead>
                 <tr>
@@ -27,37 +29,52 @@
             <tbody>
                 <tr>
                     <td class="text-center"><B>Origin</B>: 這個 可以 這樣 分配 因為 它 有 交換性 嘛 可以 交換 嘛</td>
+                    <td class="text-center">(It can be this distribution because it has exchangeability to exchange)</td>
+                    <td class="text-center"><B>Prediction</B> : 這個 可以 這樣 distribution 因為 它 有 exchangeability 嘛 可以 交換 嘛</td>
+                </tr>
+                <tr>
+                    <td class="text-center"><B>Origin</B>: 可能 每個人 都是 這樣 吧</td>
+                    <td class="text-center">(Everyone is probably so)</td>
+                    <td class="text-center"><B>Prediction</B> : Probably 每個人 都是 這樣 吧 </td>
+                </tr>
+                <tr>
+                    <td class="text-center"><B>Origin</B>: 哇 他 幫 你們 很多 啊</td>
+                    <td class="text-center">(Wow he helped you much)                  </td>
+                    <td class="text-center"><B>Prediction</B> : Wow 他 幫 你們 很多 啊</td>
                 </tr>
             </tbody>
         </table>
 
-        	<h3>Good Examples :</h3>
-        		<h4> A </h4>
-			<dd class="text-center"><B>Prediction</B> : 這個 可以 這樣 distribution 因為 它 有 exchangeability 嘛 可以 交換 嘛  </dd>
-	                    <dd class="text-center">(It can be this distribution because it has exchangeability to exchange)</dd>
-			    <dd class="text-center"><B>Origin</B>: 這個 可以 這樣 分配 因為 它 有 交換性 嘛 可以 交換 嘛</dd>
-        		<h4> B </h4>
-			<dd class="text-center"><B>Prediction</B> : Probably 每個人 都是 這樣 吧 </td>
-	                    <dd class="text-center">(Everyone is probably so)</td>
-			    <dd class="text-center"><B>Origin</B>: 可能 每個人 都是 這樣 吧</dd>
-        		<h4> C </h4>
-			<dd class="text-center"><B>Prediction</B> : Wow 他 幫 你們 很多 啊 </td>
-	                    <dd class="text-center">(Wow he helped you much)</td>
-			    <dd class="text-center"><B>Origin</B>: 哇 他 幫 你們 很多 啊</dd>
-        	<h3>Bad Examples :</h3>
-        		<h4> A </h4>
-			<dd class="text-center"><B>Prediction</B> : That that 這個 其實 that is 我 剛才 畫 在這邊 的 </dd>
-	                    <dd class="text-center">(Well... This is actually what I have drew over here)</dd>
-			    <dd class="text-center"><B>Origin</B>: 那 那 這個 其實 也就是我 剛才 畫 在這邊 的</dd>
-        		<h4> B </h4>
-			<dd class="text-center"><B>Prediction</B> : Have 看到 嗎 這個 應該 容易 看得出來 囉</dd>
-	                    <dd class="text-center">(See? It may be seen easily)</dd>
-			    <dd class="text-center"><B>Origin</B>: 有 看到 嗎 這個 應該 容易 看得出來 囉</dd>
-        		<h4> C </h4>
-			<dd class="text-center"><B>Prediction</B> : So we people 的 耳朵 跟 眼睛</dd>
-	                    <dd class="text-center">(So our/people's ears and eyes)</dd>
-			    <dd class="text-center"><B>Origin</B>:所以 我們 人 的 耳朵 跟 眼睛</dd>
-
-    </div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col" class="text-center">Bad Examples</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center"><B>Origin</B>: 那 那 這個 其實 也就是我 剛才 畫 在這邊 的</td>
+                    <td class="text-center">(Well... This is actually what I have drew over here)               </td>
+                    <td class="text-center"><B>Prediction</B> : That that 這個 其實 that is 我 剛才 畫 在這邊 的</td>
+                </tr>
+                <tr>
+                    <td class="text-center"><B>Origin</B>: 有 看到 嗎 這個 應該 容易 看得出來 囉</td>
+                    <td class="text-center">(See? It may be seen easily)                               </td>
+                    <td class="text-center"><B>Prediction</B> : Have 看到 嗎 這個 應該 容易 看得出來 囉</td>
+                </tr>
+                <tr>
+                    <td class="text-center"><B>Origin</B>:所以 我們 人 的 耳朵 跟 眼睛</td>
+                    <td class="text-center">(So our/people's ears and eyes)                 </td>
+                    <td class="text-center"><B>Prediction</B> : So we people 的 耳朵 跟 眼睛</td>
+                </tr>
+<!--
+                <tr>
+                    <td class="text-center"></td>
+                    <td class="text-center"></td>
+                    <td class="text-center"></td>
+-->
+                </tr>
+            </tbody>
+        </table>
 </body>
 </html>
